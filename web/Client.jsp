@@ -7,9 +7,12 @@
        <body>
        <h1>
 
-       <form method="POST" action="/">
-       		Имя <input type="text" name="firstName">
+       <form method="POST" action="/api">
+       	Имя пользовтеля <input type="text" name="login">
        		<input type="submit" value="Отправить">
+       		</form>
+       		<br>
+
 
        </h1>
        </body>
